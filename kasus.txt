@@ -1,0 +1,15 @@
+Kasus: Optimalisasi Rute Pengumpulan Sampah di Perkotaan
+Deskripsi Kasus: Sebuah perusahaan pengelola sampah ingin menentukan rute optimal untuk truk pengangkut sampah agar waktu perjalanan dan biaya operasional dapat diminimalkan, dengan memastikan seluruh titik pengumpulan sampah terlayani.
+Algoritma yang Digunakan: Traveling Salesman Problem (TSP) dengan pendekatan Greedy atau Genetic Algorithm.
+Judul Proyek:
+"Optimalisasi Rute Pengumpulan Sampah di Perkotaan Menggunakan Algoritma Traveling Salesman Problem"
+
+Penjelasan Kode
+1. Distance Matrix: Fungsi distance_matrix digunakan untuk membuat matriks jarak antar titik pengumpulan sampah berdasarkan koordinat yang diberikan.
+2. Greedy Algorithm: Fungsi greedy_tsp mengimplementasikan algoritma Greedy untuk mencari rute TSP. Algoritma ini memilih titik terdekat yang belum dikunjungi hingga semua titik telah dikunjungi dan kembali ke titik awal.
+3. Total Distance: Fungsi total_distance digunakan untuk menghitung total jarak dari rute yang dihasilkan.
+4. Main Function: Fungsi main menjalankan algoritma Greedy dan mencetak rute optimal beserta total jaraknya.
+Kompleksitas
+1. Time Complexity: (O(n^2)) karena untuk setiap titik, kita perlu mencari titik terdekat yang belum dikunjungi.
+2. Space Complexity: (O(n^2)) untuk menyimpan matriks jarak.
+3. Anda dapat menjalankan program ini untuk melihat rute optimal yang dihasilkan oleh algoritma Greedy beserta total jaraknya. Anda juga dapat menyesuaikan lokasi titik pengumpulan sampah sesuai kebutuhan Anda.
